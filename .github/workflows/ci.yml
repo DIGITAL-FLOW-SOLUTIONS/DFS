@@ -1,11 +1,10 @@
 name: CI
 
-# Trigger on pushes to main (and you can add PRs, tags, etc.)
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
-# Make curl/git/npm/etc skip the proxy for pixelpoint.io
 env:
   HTTP_PROXY:  http://proxy.corp.example:3128
   HTTPS_PROXY: http://proxy.corp.example:3128
@@ -14,17 +13,9 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Check out your code
       - uses: actions/checkout@v3
-
-      # 2. Install your dependencies (npm example)
-      - name: Install dependencies
+      - name: Install deps
         run: npm ci
-
-      # 3. Verify that pixelpoint.io is now reachable
-      - name: Verify access to PixelPoint
+      - name: Fetch PixelPoint CSS
         run: curl -I https://pixelpoint.io/
-
-      # …add your other build/test/deploy steps here…

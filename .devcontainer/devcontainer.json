@@ -1,0 +1,8 @@
+{
+  // … existing settings …
+  "containerEnv": {
+    "HTTP_PROXY":  "http://proxy.corp.example:3128",
+    "HTTPS_PROXY": "http://proxy.corp.example:3128",
+    "NO_PROXY":    "localhost,127.0.0.1,pixelpoint.io"
+  }
+}
