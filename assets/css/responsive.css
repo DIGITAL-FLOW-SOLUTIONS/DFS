@@ -95,7 +95,7 @@
     padding: 40px;
   }
   .app_banner_content h2 {
-    font-size: 70px;
+    font-size: 56px;
     line-height: 85px;
   }
   .app_features_item .app_features_content,
@@ -110,7 +110,7 @@
     overflow: hidden;
   }
   .app_promo_content h2 {
-    font-size: 70px;
+    font-size: 56px;
   }
   .fact_inner {
     padding-left: 0;
@@ -195,7 +195,7 @@
     line-height: 72px;
   }
   .sass_banner_content h2 {
-    font-size: 70px;
+    font-size: 56px;
     line-height: 80px;
   }
   .saas_features_content.ps-5,
@@ -250,7 +250,7 @@
     padding: 30px 15px 25px;
   }
   .app_promo_content h2 {
-    font-size: 58px;
+    font-size: 56px;
     line-height: 70px;
     margin-bottom: 15px;
   }
@@ -267,7 +267,7 @@
     font-size: 18px;
   }
   .app_banner_content h2 {
-    font-size: 60px;
+    font-size: 56px;
     line-height: 70px;
     margin-bottom: 14px;
   }
@@ -397,7 +397,7 @@
   }
   .saas_banner_content_two h2,
   .saas_banner_area_four .saas_banner_content_two h2 {
-    font-size: 60px;
+    font-size: 56px;
     line-height: 70px;
   }
   .promo_tab_image {
@@ -449,7 +449,7 @@
     justify-content: center;
   }
   .sass_banner_content h2 {
-    font-size: 62px;
+    font-size: 56px;
     line-height: 72px;
   }
   .sass_banner_content .ratting_icon,
